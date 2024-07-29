@@ -94,9 +94,6 @@
             if (name && !isNaN(order)) {
                 users.push({ user: name, order: order });
                 updateUserList();
-                document.getElementById('userName').value = '';
-                document.getElementById('userOrder').value = '';
-                alert('User added successfully!');
             } else {
                 alert('Please enter valid user name and order amount.');
             }
